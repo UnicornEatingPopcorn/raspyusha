@@ -1,0 +1,12 @@
+.fit-width {
+  width: 100%
+}
+
+.list-group .active {
+  background-color: red;
+  border-color: black
+}
+
+body {
+  position: relative;
+}
