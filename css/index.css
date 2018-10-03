@@ -12,7 +12,7 @@ body {
 }
 
 #home-bg-parallax {
-  background: url("rinjani_theme/html/assets/images/bg-parallax.jpg");
+  /* background: url("images/bg-parallax.jpg"); */
   background-size: contain;
   background-repeat:no-repeat;
   height: 100%
@@ -20,9 +20,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-}
+} */
 
-landing {
+ landing {
   min-height: 1000px;
 
 }

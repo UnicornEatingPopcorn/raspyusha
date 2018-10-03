@@ -16,12 +16,12 @@
 
 /** BG Image */
 #home {
-    background-image: url("rinjani_theme/html/assets/images/bg-parallax.jpg");
+    background-image: url("../images/bg-parallax.jpg");
 }
 
 /** BG Parallax */
 #home-bg-parallax > .bg-parallax {
-    background: url("rinjani_theme/html/assets/images/bg-parallax.jpg");
+    background: url("../images/bg-parallax.jpg");
 }
 
 /** BG Slideshow */
