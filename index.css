@@ -10,3 +10,23 @@
 body {
   position: relative;
 }
+
+#home-bg-parallax {
+  background: url("rinjani_theme/html/assets/images/bg-parallax.jpg");
+  background-size: contain;
+  background-repeat:no-repeat;
+  height: 100%
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+landing {
+  min-height: 1000px;
+
+}
+
+body, html {
+    height: 100%;
+}
