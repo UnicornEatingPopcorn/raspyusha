@@ -28,10 +28,13 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between py-3">
     <div class="navbar-brand">Raspyusha - my LOVE! <span class="badge badge-dark">❤</span></div>
     <div id="navigation" class="navbar-wrapper">
-      <div class="collapse navbar-collapse" id="navbar-header">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <!-- <div class="collapse navbar-collapse" id="navbar-header">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#aboutRaspyusha">Информация</a>
@@ -41,52 +44,80 @@
           </li>
 
         </ul>
+      </div> -->
+      <div class="collapse navbar-collapse" id="navbar-header">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
+    </nav>
+
+  </div>
+
+</nav>
+<div class="welcome-page section h-100 overflow-hidden p-0 w-100" id="home-bg-parallax">
+  <div class="bg-parallax"></div>
+  <div class="h-100 left-0 position-absolute top-0 w-100">
+    <div class="container h-100">
+      <div class="row align-items-center h-100 justify-content-center mt-3">
+        <div class="col-lg-8 content-after-header text-center">
+          <h2 class="font-alt font-w-600 letter-spacing-2 mb-3 mt-3 text-uppercase text-white title-xs-extra-large title-extra-large-3"> Распьюша Анновна</h2>
+          <span class="bg-base-color d-inline-block mt-4 sep-line-medium-thick"></span><span class="d-block font-alt letter-spacing-2 mb-3 mt-4 text-large text-white"> Все, что хотели знать, но боялись спросить ))) </span>
+          <h3 class="font-alt font-w-500 letter-spacing-2  text-extra-large text-white">
+            ОСТОРОЖНО!!! Опасно высокий уровень ми-ми-мишности!
+          </h3>
+          <span class="d-block font-alt letter-spacing-2 text-large text-uppercase text-white">
+            Самые свежие новости о Распьюшеньке-плюшеньке
+          </span>
+          <a href="#aboutRaspyusha" class="page-scroll btn btn-base-color btn-large btn-shadow mr-0 mt-4">Быстро жать кнопочку</a>
 
 
-    </div>
-
-  </nav>
-  <div class="welcome-page section h-100 overflow-hidden p-0 w-100" id="home-bg-parallax">
-    <div class="bg-parallax" style="transform: translate(0%, 40%) translate3d(0px, 0px, 0px);"></div>
-    <div class="h-100 left-0 position-absolute top-0 w-100">
-      <div class="container h-100">
-        <div class="row align-items-center h-100 justify-content-center mt-3">
-          <div class="col-lg-8 content-after-header text-center">
-            <h2 class="font-alt font-w-600 letter-spacing-2 mb-3 mt-3 text-uppercase text-white title-xs-extra-large title-extra-large-3"> Распьюша Анновна</h2>
-            <span class="bg-base-color d-inline-block mt-4 sep-line-medium-thick"></span><span class="d-block font-alt letter-spacing-2 mb-3 mt-4 text-large text-white"> Все, что хотели знать, но боялись спросить ))) </span>
-            <h3 class="font-alt font-w-500 letter-spacing-2  text-extra-large text-white">
-              ОСТОРОЖНО!!! Опасно высокий уровень ми-ми-мишности!
-            </h3>
-            <span class="d-block font-alt letter-spacing-2 text-large text-uppercase text-white">
-              Самые свежие новости о Распьюшеньке-плюшеньке
-            </span>
-            <a href="#aboutRaspyusha" class="page-scroll btn btn-base-color btn-large btn-shadow mr-0 mt-4">Быстро жать кнопочку</a>
-
-
-          </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <section id=aboutRaspyusha class="bg-white">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-9 pb-lg-4 text-center">
-          <h3>Интересные истории из жизни Распьюшеньки</h3>
-          <span class="d-inline-block mt-4 sep-line-thick-long"></span>
-        </div>
-
+<section id=aboutRaspyusha class="bg-white">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9 pb-lg-4 text-center">
+        <h3>Интересные истории из жизни Распьюшеньки</h3>
+        <span class="d-inline-block mt-4 sep-line-thick-long"></span>
       </div>
-      <div class="row">
-        <div class="col-4">
-          <div class="card">
-            <img class="card-img-top fit-width" src="https://i.imgur.com/yvysBJS.jpg" alt="Мой пирожок"></p>
-            <div class="card-body">
-              <p>Сегодня этот ребенок покушался на мои шоколадные подушечки, но я не дала их ей!</p>
-              <p>Потом это дитя сидело на кровати и делало виноватые глазки!</p>
-              <a href="https://vk.com/id5527594" class="btn btn-info btn-block" >Жмякнуть</a>
+
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top fit-width" src="https://i.imgur.com/yvysBJS.jpg" alt="Мой пирожок"></p>
+          <div class="card-body">
+            <p>Сегодня этот ребенок покушался на мои шоколадные подушечки, но у нее ничего не вышло!
+              Потом дитя сидело на кровати и делало виноватые глазки!</p>
+              <a href="https://vk.com/id5527594" class="btn btn-success btn-block" >Жмякнуть</a>
             </div>
           </div>
         </div>
@@ -95,7 +126,7 @@
             <img class="card-img-top fit-width" src="https://i.imgur.com/iFpblPA.jpg"></p>
             <div class="card-body">
               <p>Сладкие зазнобники любят лизать ушки и носики!</p>
-              <p><a href="https://vk.com/id5527594" class="btn btn-info btn-block" >Погулять</a></p>
+              <p><a href="https://vk.com/id5527594" class="btn btn-success btn-block" >Погулять</a></p>
             </div>
           </div>
         </div>
@@ -104,7 +135,7 @@
             <img class="card-img-top fit-width" src="https://i.imgur.com/kGW0ToP.jpg"></p>
             <div class="card-body">
               <p>Распьюша очень злится, когда к ней кто-то подходит, пока у нее в зубах вкусняшка. Она готова съесть каждого, кто посмеет взглянуть на ее прелесть!</p>
-              <p><a href="https://vk.com/id5527594" class="btn btn-info btn-block" >Покормить</a></p>
+              <p><a href="https://vk.com/id5527594" class="btn btn-success btn-block" >Покормить</a></p>
             </div>
           </div>
         </div>
@@ -140,49 +171,276 @@
   <!-- //.container -->
 </div>
 
-<div class="row">
-  <div class="col justify-content-center">
-    <div id="carouselRaspyushaIndicators" class="carousel slide">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselRaspyushaIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselRaspyushaIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselRaspyushaIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="https://i.imgur.com/uKX93KY.jpg" alt="Первый слайд">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://i.imgur.com/rFL2sLO.jpg" alt="Второй слайд">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="https://i.imgur.com/IwbLgaj.jpg" alt="Третий слайд">
-        </div>
+<section id="gallery" class="bg-white">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-lg-9 pb-lg-4 text-center">
+        <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Галерея</h3>
+        <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">Воспоминания Распьюши по категориям</p>
+        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
       </div>
-      <a class="carousel-control-prev" href="#carouselRaspyushaIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselRaspyushaIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <!-- //.col-lg-9 -->
     </div>
+    <!-- //.row -->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="gallery-filter">
+          <ul class="mb-5 p-0 text-center">
+            <li class="list-inline-item"><a href="#" data-filter="*" class="btn btn-base-color btn-small disabled mb-1 mr-1">Все</a></li>
+            <li class="list-inline-item"><a href="#" data-filter=".home" class="btn btn-base-color btn-small mb-1 mr-1">Дома</a></li>
+            <li class="list-inline-item"><a href="#" data-filter=".play" class="btn btn-base-color btn-small mb-1 mr-1">Играем</a></li>
+            <li class="list-inline-item"><a href="#" data-filter=".walk" class="btn btn-base-color btn-small mb-1 mr-0">Гуляем</a></li>
+          </ul>
+        </div>
+        <!-- //.gallery-filter -->
+
+        <div class="gallery-wrapper">
+          <div class="gallery-grid grid-col-4 gutter-medium">
+            <div class="item play">
+              <figure>
+                <div class="gallery-img">
+                  <img src="images/gallery-1.jpg" alt="">
+                </div>
+                <!-- //.gallery-img -->
+
+                <figcaption>
+                  <a href="images/gallery-1.jpg" title="Было очень жарко!">
+                    <div class="d-table">
+                      <div class="d-table-cell align-middle">
+                        <span class="d-block font-alt letter-spacing-2 text-extra-large text-uppercase text-white">Было очень жарко!</span>
+                      </div>
+                      <!-- //.d-table-cell -->
+                    </div>
+                    <!-- //.d-table -->
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //.item -->
+
+            <div class="item home">
+              <figure>
+                <div class="gallery-img">
+                  <img src="images/gallery-2.jpg" alt="">
+                </div>
+                <!-- //.gallery-img -->
+
+                <figcaption>
+                  <a href="images/gallery-2.jpg" title="Разлеглись">
+                    <div class="d-table">
+                      <div class="d-table-cell align-middle">
+                        <span class="d-block font-alt letter-spacing-2 text-extra-large text-uppercase text-white">Разлеглись</span>
+                      </div>
+                      <!-- //.d-table-cell -->
+                    </div>
+                    <!-- //.d-table -->
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //.item -->
+
+            <div class="item play">
+              <figure>
+                <div class="gallery-img">
+                  <img src="images/gallery-3.jpg" alt="">
+                </div>
+                <!-- //.gallery-img -->
+
+                <figcaption>
+                  <a href="images/gallery-3.jpg" title="Ругаемся и кусаемся">
+                    <div class="d-table">
+                      <div class="d-table-cell align-middle">
+                        <span class="d-block font-alt letter-spacing-2 text-extra-large text-uppercase text-white">Ругаемся и кусаемся</span>
+                      </div>
+                      <!-- //.d-table-cell -->
+                    </div>
+                    <!-- //.d-table -->
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //.item -->
+
+            <div class="item home">
+              <figure>
+                <div class="gallery-img">
+                  <img src="images/gallery-4.jpg" alt="">
+                </div>
+                <!-- //.gallery-img -->
+
+                <figcaption>
+                  <a href="images/gallery-4.jpg" title="Любопытствуем">
+                    <div class="d-table">
+                      <div class="d-table-cell align-middle">
+                        <span class="d-block font-alt letter-spacing-2 text-extra-large text-uppercase text-white">Любопытствуем</span>
+                      </div>
+                      <!-- //.d-table-cell -->
+                    </div>
+                    <!-- //.d-table -->
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //.item -->
+
+            <div class="item home">
+              <figure>
+                <div class="gallery-img">
+                  <img src="images/gallery-5.jpg" alt="">
+                </div>
+                <!-- //.gallery-img -->
+
+                <figcaption>
+                  <a href="images/gallery-5.jpg" title="Спрятались в лукошке">
+                    <div class="d-table">
+                      <div class="d-table-cell align-middle">
+                        <span class="d-block font-alt letter-spacing-2 text-extra-large text-uppercase text-white">Спрятались в лукошке</span>
+                      </div>
+                      <!-- //.d-table-cell -->
+                    </div>
+                    <!-- //.d-table -->
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //.item -->
+
+            <div class="item home">
+              <figure>
+                <div class="gallery-img">
+                  <img src="images/gallery-6.jpg" alt="">
+                </div>
+                <!-- //.gallery-img -->
+
+                <figcaption>
+                  <a href="images/gallery-6.jpg" title="Дремлет моя прелесть">
+                    <div class="d-table">
+                      <div class="d-table-cell align-middle">
+                        <span class="d-block font-alt letter-spacing-2 text-extra-large text-uppercase text-white">Дремлет моя прелесть</span>
+                      </div>
+                      <!-- //.d-table-cell -->
+                    </div>
+                    <!-- //.d-table -->
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //.item -->
+
+            <div class="item walk">
+              <figure>
+                <div class="gallery-img">
+                  <img src="images/gallery-7.jpg" alt="">
+                </div>
+                <!-- //.gallery-img -->
+
+                <figcaption>
+                  <a href="images/gallery-7.jpg" title="Кто-то ждет котлету">
+                    <div class="d-table">
+                      <div class="d-table-cell align-middle">
+                        <span class="d-block font-alt letter-spacing-2 text-extra-large text-uppercase text-white">Кто-то ждет котлету</span>
+                      </div>
+                      <!-- //.d-table-cell -->
+                    </div>
+                    <!-- //.d-table -->
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //.item -->
+
+            <div class="item walk">
+              <figure>
+                <div class="gallery-img">
+                  <img src="images/gallery-8.jpg" alt="">
+                </div>
+                <!-- //.gallery-img -->
+
+                <figcaption>
+                  <a href="images/gallery-8.jpg" title="Так начинается утро">
+                    <div class="d-table">
+                      <div class="d-table-cell align-middle">
+                        <span class="d-block font-alt letter-spacing-2 text-extra-large text-uppercase text-white">Так начинается утро</span>
+                      </div>
+                      <!-- //.d-table-cell -->
+                    </div>
+                    <!-- //.d-table -->
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <!-- //.item -->
+          </div>
+          <!-- //.gallery-grid -->
+        </div>
+        <!-- //.gallery-wrapper -->
+      </div>
+      <!-- //.col-12 -->
+    </div>
+    <!-- //.row -->
   </div>
+  <!-- //.container -->
+</section>
+<!-- //Section - Gallery End -->
+<!-- Footer Start -->
+<footer class="bg-dark py-3">
+  <div class="container">
+
+    <!-- //.row -->
+    <div class="row align-items-center">
+      <ul class="footer-icon-social mb-0 mt-4 p-0 text-center text-md-right title-xs-small title-medium">
+        <li class="list-inline-item">
+          <a href="#" class="text-white"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li class="list-inline-item pl-4">
+          <a href="#" class="text-white"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li class="list-inline-item pl-4">
+          <a href="#" class="text-white"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+      <div class="col text-center">
+        <span class="font-alt font-w-600 letter-spacing-1 text-gray-dark text-small text-uppercase">&copy; 2018 Best pug forever. All rights reserved.</span>
+      </div>
+      <!-- //.col -->
+    </div>
+
+  </div>
+  <!-- //.container -->
+</footer>
+<!-- //Footer End -->
 
 
 </div>
-<script src="js/index.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
-<script src="js/rinjani/lib/greensock/plugins/ScrollToPlugin.min.js"></script>
-<script src="js/rinjani/theme.js"></script>
-<script src="js/rinjani/ScrollMagic.min.js"></script>
+
+
+<!-- Main JS -->
+<script src="js/rinjani/jquery.min.js"></script>
+<script src="js/rinjani/popper.min.js"></script>
+<script src="js/rinjani/bootstrap.min.js"></script>
+
+<!-- Include all js plugins (below) -->
 <script src="js/rinjani/pace.min.js"></script>
-<script src="js/rinjani/jquery.flexslider.min.js"></script>
-<script src="js/rinjani/animation.gsap.min.js"></script>
+<script src="js/rinjani/jquery.easing.min.js"></script>
+<script src="js/rinjani/jquery.inview.min.js"></script>
+<script src="js/rinjani/jquery.countTo.js"></script>
+<script src="js/rinjani/imagesloaded.pkgd.min.js"></script>
+<script src="js/rinjani/flickity.pkgd.min.js"></script>
+<script src="js/rinjani/isotope.pkgd.min.js"></script>
+<script src="js/rinjani/jquery.magnific-popup.min.js"></script>
+<script src="js/rinjani/jquery.easypiechart.min.js"></script>
+<script src="js/rinjani/jquery.countdown.min.js"></script>
+<script src="js/rinjani/jquery.validate.min.js"></script>
+
+<!-- BG Parallax -->
 <script src="js/rinjani/lib/greensock/TweenMax.min.js"></script>
+<script src="js/rinjani/ScrollMagic.min.js"></script>
+<script src="js/rinjani/animation.gsap.min.js"></script>
+
+<!-- Theme JS -->
+<script src="js/rinjani/theme.js"></script>
 
 
 

@@ -30,3 +30,12 @@ body {
 body, html {
     height: 100%;
 }
+
+.footer-icon-social {
+    bottom: 10px;
+    position: relative;
+}
+
+.navbar-collapse {
+  z-index: 999;
+}
