@@ -39,3 +39,12 @@ body, html {
 .navbar-collapse {
   z-index: 999;
 }
+
+.white-logo-text {
+  color: white;
+  margin-top: 20px
+}
+
+.dropdown-toggle {
+  margin-right: 0 !important;
+}
